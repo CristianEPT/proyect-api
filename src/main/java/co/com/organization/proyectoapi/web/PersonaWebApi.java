@@ -44,7 +44,7 @@ public class PersonaWebApi {
 
     @GetMapping("hola")
     public String hola(){
-        return "hola";
+        return "hola persona";
     }
 
 
