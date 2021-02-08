@@ -42,5 +42,10 @@ public class PersonaWebApi {
         return iPersonaService.createTarjeta(idPersona, tarjetaDto);
     }
 
+    @GetMapping("hola")
+    public String hola(){
+        return "hola";
+    }
+
 
 }
